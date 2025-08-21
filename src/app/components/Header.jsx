@@ -27,7 +27,7 @@ export default function Header() {
         </div>
 
         {/* sosial */}
-        <div className="flex gap-2 ">
+        <div className="flex gap-2 text-lg">
           <Link
             href="https://www.instagram.com/smkaknusabangsa/"
             className="hover:text-red-500 transition-all"
