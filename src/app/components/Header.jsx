@@ -9,8 +9,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Header() {
   return (
-    <>
-      <header className="flex items-center justify-around text-sm py-4">
+      <header className="md:flex hidden items-center justify-around text-sm md:py-4 py-2">
         {/* contact */}
         <div className="flex gap-3">
           <Link
@@ -60,6 +59,5 @@ export default function Header() {
           </Link>
         </div>
       </header>
-    </>
   );
 }
