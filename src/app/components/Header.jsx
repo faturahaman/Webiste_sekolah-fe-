@@ -11,7 +11,7 @@ export default function Header() {
   return (
       <header className="md:flex hidden items-center justify-around text-sm md:py-4 py-2">
         {/* contact */}
-        <div className="flex gap-3">
+        <div className= "flex gap-3">
           <Link
             className="hover:text-red-500 transition-all flex items-center gap-2"
             href="https://api.whatsapp.com/send/?phone=%2B6281210950042&text&type=phone_number&app_absent=0"
